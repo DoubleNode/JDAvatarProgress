@@ -38,6 +38,8 @@ const float JDAvatarDefaultBorderWidth = 5.0f;
 {
     [super layoutSubviews];
     
+    self.layer.cornerRadius = CGRectGetWidth(self.frame)/2;
+    
     CGRect bounds = [self bounds];
     
     CGRect outer = CGRectInset([self bounds], self.tickness/2.0f, self.tickness/2.0f);

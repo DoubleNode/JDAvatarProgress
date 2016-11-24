@@ -31,6 +31,8 @@ const float JDAvatarDefaultBorderWidth = 5.0f;
 
 - (void) awakeFromNib{
     
+    [super awakeFromNib];
+    
     [self _commonInit];
 }
 
